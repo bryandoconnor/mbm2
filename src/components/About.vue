@@ -11,15 +11,15 @@
   </div>
 </div>
 <div class="container-fluid text-center p-0">
-  <div class="row p-0">
-    <div class="col-lg-6 col-md-6 col-md-offset-0 col-sm-6 col-xs-12 p-0">
+  <div class="row m-0">
+    <div class="col-lg-4 col-12 p-0">
       <img class="p-0 m-0 w-100" src="https://mybetterme.s3-us-west-2.amazonaws.com/images/Index-Contest-hero.jpg" alt="MyBetterMe started as a simple idea with HUGE potential. Just like your goals, small
         things can sometimes make the largest impact on a person's life!">
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <div class="p-3">
-        <h1 class="text-center lg-heading butterfly-text">Simplify. Organize. Inspire.</h1>
-        <h2 class="m-0 text-center lg-p average-text">
+    <div class="col-lg-8 col-12 p-0">
+      <div class="p-xl-3 p-lg-2 p-1">
+        <h1 class="text-center p-xl-3 p-lg-2 p-1 lg-heading butterfly-text">Simplify. Organize. Inspire.</h1>
+        <h2 class="mx-xl-5 m-1 text-center lg-p average-text">
           We wanted to create a tool to help us with the demands of our crazy everyday life!
           This included researching methods that are tried and proven in all aspects
           of life, from many different resources.

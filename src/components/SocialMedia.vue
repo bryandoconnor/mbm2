@@ -7,7 +7,7 @@
         <img class="m-2 social-icon" src="https://mybetterme.s3-us-west-2.amazonaws.com/images/Facebook-icon.svg">
       </a>
 
-      <a href="/" target="_blank">
+      <!-- <a href="/" target="_blank">
         <img class="m-2 social-icon" src="https://mybetterme.s3-us-west-2.amazonaws.com/images/Twitter-icon.svg">
       </a>
 
@@ -21,9 +21,9 @@
 
       <a href="/" target="_blank">
         <img class="m-2 social-icon" src="https://mybetterme.s3-us-west-2.amazonaws.com/images/Instagram-icon.svg">
-      </a>
+      </a> -->
 
-      <a href="/" target="_blank">
+      <a href="https://www.pinterest.com/Amanda911T/" target="_blank">
         <img class="m-2 social-icon" src="https://mybetterme.s3-us-west-2.amazonaws.com/images/Pinterest-icon.svg">
       </a>
     </div>

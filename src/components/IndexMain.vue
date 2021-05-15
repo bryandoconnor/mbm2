@@ -5,7 +5,7 @@
       <div class="p-3">
         <h1 class="text-center main-heading butterfly-text">Inspiring Purpose.</h1>
         <h2 class="my-4 text-center xl-p average-text">Welcome to MyBetterMe!</h2>
-        <p class="my-0 mx-3 text-center lg-p average-text">
+        <p class="my-0 mx-2 text-center lg-p average-text">
           We are proud to offer help and solutions to an overwhelmed and cluttered lifestyle.
           Our workbooks can help individuals to find direction and support in attaining their goals!
         </p>

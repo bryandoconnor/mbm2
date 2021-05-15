@@ -9,8 +9,8 @@
               <h1 class="welcome-heading butterfly-text">MyBetterMe</h1>
               <p class="text-black lg-p average-text">Want to simplify your life?</p>
               <p class="text-black lg-p average-text">Our analog booklet is a tool that's packed with hundreds of ideas on how to simplify and balance your life!</p>
-              <div><router-link class="btn btn-link orange-button lg-button" role="button" to="/cart">$19.99 | Buy Now</router-link></div>
-              <div><router-link class="btn btn-link orange-button lg-button" role="button" to="/mbm">Take a Tour</router-link></div>
+              <div><router-link class="btn btn-link orange-button lg-button" role="button" to="/cart" data-dismiss="modal">$19.99 | Buy Now</router-link></div>
+              <div><router-link class="btn btn-link orange-button lg-button" role="button" to="/mbm" data-dismiss="modal">Take a Tour</router-link></div>
               <div><button class="btn btn-link green-button lg-button" data-dismiss="modal" type="button">Close</button></div>
             </div>
           </div>

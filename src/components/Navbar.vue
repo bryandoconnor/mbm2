@@ -20,7 +20,7 @@
           <router-link to="/about" class="navLink">About</router-link>
           <router-link to="/cart" class="navLink">
             <i class="fas fa-shopping-cart cart-icon-bg"></i>
-            <span class="count-cart">0</span>
+            <span class="count-cart">Cart</span>
           </router-link>
           <!-- <div class="navLink p-0"><AuthNav /></div> -->
         </div>
@@ -50,7 +50,7 @@
         <router-link to="/about" class="navLink">About</router-link>
         <router-link to="/cart" class="navLink">
           <i class="fas fa-shopping-cart"></i>
-          <span class="count-cart">0</span>
+          <span class="count-cart">Cart</span>
         </router-link>
         <!-- <div class="navLink"><AuthNav /></div> -->
       </div>
@@ -112,7 +112,7 @@ export default {
 
 .navBar {
   align-items: center;
-  display: flex;
+  display: none;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 20px;
@@ -121,7 +121,13 @@ export default {
 }
 
 .navBar-mobile {
-  display: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  padding: 2px 4px;
+  position: relative;
 }
 
 .navBrand img {
@@ -171,46 +177,37 @@ export default {
   flex-direction: column;
 }
 
-@media (max-width:991px) {
+@media (min-width: 576px) {
+  .navLink {
+    padding: 10px 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navBrand img {
+    height: 50px;
+  }
+
+  .navBar {
+    display: flex;
+  }
+
+  .navBar-mobile {
+    display: none;
+  }
+
+  .navLink {
+    padding: 10px 5px;
+  }
+}
+
+@media (min-width: 992px) {
   .navBrand img {
     height: 60px;
   }
 
   .navLink {
-    font-size: 18px;
-    padding: 10px 15px;
-  }
-}
-
-@media (max-width:767px) {
-  .navBrand img {
-    height: 50px;
-  }
-
-  .navLink {
-    font-size: 16px;
-    padding: 10px 5px;
-  }
-}
-
-@media (max-width:575px) {
-  .navBar {
-    display: none;
-  }
-
-  .navBar-mobile {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 20px;
-    padding: 2px 4px;
-    position: relative;
-  }
-
-  .navLink {
-    font-size: 14px;
-    padding: 10px 1.5rem;
+    padding: 10px;
   }
 }
 </style>

@@ -7,6 +7,7 @@ a {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -31,17 +32,24 @@ ul {
   width: 98%;
 }
 
+.gray-over {
+  background-color: rgba(160,160,160,.5);
+}
+
 .green-button {
-  color: #fff;
   background-color: #85dd1f;
-  border: 2px solid #85dd1f;
   background-image: none;
+  border: 2px solid #85dd1f;
+  color: #fff;
 }
 
 .green-button:hover {
-  color: #85dd1f;
   background-color: #000;
-  text-decoration: none;
+  color: #85dd1f;
+}
+
+.green-over {
+  background-color:rgba(133,221,31,.5);
 }
 
 .half-div {
@@ -62,7 +70,12 @@ ul {
   font-size: 18px;
   margin: 20px auto;
   padding: 10px 30px;
+  text-decoration: none;
   text-shadow: 1.75px 1.75px 3px #888;
+}
+
+.lg-button:hover {
+  text-decoration: none;
 }
 
 .lg-heading {
@@ -71,24 +84,8 @@ ul {
   padding: 10px 5px;
 }
 
-.lg-icon {
-  color: #000;
-  display: inline-table;
-  font-size: 25px;
-  font-weight: 600;
-  font-family: 'Butterfly Kids';
-  height: 120px;
-  margin: 20px 30px;
-  width: 120px;
-}
-
-.lg-icon:hover {
-  color: #f7941d;
-  text-decoration: none;
-}
-
 .lg-p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .md-p {
@@ -111,8 +108,6 @@ ul {
 .orange-button:hover {
   color: #f7941d;
   background-color: #000;
-  text-decoration: none;
-  transition-duration: 0.8s;
 }
 
 .purple-button {
@@ -120,13 +115,11 @@ ul {
   background-image: none;
   border: 2px solid #9353f9;
   color: #fff;
-  text-decoration: none;
 }
 
 .purple-button:hover {
   color: #9353f9;
   background-color: #fff;
-  text-decoration: none;
 }
 
 .text-shadow {
@@ -154,10 +147,9 @@ ul {
 .yellow-button:hover {
   color: #fff200;
   background-color: #000;
-  text-decoration: none;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .half-div {
     width: 100%;
     margin: 0 auto;
@@ -170,30 +162,28 @@ ul {
     padding: 0;
   }
 
+  .lg-p {
+    font-size: 16px;
+  }
+
   .main-heading {
     font-size: 45px;
   }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
+  .lg-p {
+    font-size: 18px;
+  }
+
   .xl-p {
     font-size: 23px;
     margin: 30px 20px;
   }
 }
 
-.scroll-button:hover,
-.black-button:hover,
-.blue-button:hover,
-.footer-link:hover,
-.gray-button:hover,
-.green-button:hover,
-.lg-icon:hover,
-.light-orange-button:hover,
-.light-yellow-button:hover,
-.pink-button:hover,
-.purple-button:hover,
-.red-button:hover,
-.yellow-button:hover {
-  transition-duration: 0.8s;
+@media (min-width: 1200px) {
+  .lg-p {
+    font-size: 20px;
+  }
 }

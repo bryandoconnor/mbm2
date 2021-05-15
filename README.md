@@ -1,4 +1,4 @@
-# mbm2
+# mybetterme.net
 
 ## Project setup
 ```

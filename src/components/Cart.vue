@@ -19,12 +19,6 @@
         <button class="btn btn-light d-inline-block" type="button" v-on:click="cartCounter += 1" :disabled="plusDisabled">+</button>
       </div>
 
-      <!-- TODO Add Local Storage Item For Cart -->
-      <!-- <div>
-        <button class="d-none btn btn-default lg-button orange-button" type="button" v-on:click="cartFunc()">
-          Add to Cart
-        </button>
-      </div> -->
     </div>
 
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center checkout-container">
@@ -83,10 +77,8 @@
 
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center checkout-container blue-over text-black" v-if="cartCounter > 5">
       <h3 class="xl-p average-text">For Orders Larger Than 5</h3>
-      <p class="lg-p average-text mb-3">Please contact us directly at
-        <a href="mailto:info@mybetterme.net">info@mybetterme.net</a>
-        or <a href="tel:385.743.1371">385.743.1371
-        </a>
+      <p class="lg-p average-text mb-3">Please contact us directly
+        <a href="mailto:contest@mybetterme.net">here</a>
       </p>
     </div>
 
@@ -147,55 +139,6 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-
-              <!-- <div class="carousel slide" data-ride="carousel" id="Peek-carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-001.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-002.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-003.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-004.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-005.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-006.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-007.jpg" alt="Slide Image">
-                  </div>
-                  <div class="item">
-                    <img src="https://mybetterme.s3-us-west-2.amazonaws.com/images/MBM-Carousel-008.jpg" alt="Slide Image">
-                  </div>
-                </div>
-                <div>
-                  <a class="left carousel-control" href="#Peek-carousel" role="button" data-slide="prev">
-                    <i class="glyphicon glyphicon-chevron-left"></i>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#Peek-carousel" role="button" data-slide="next">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-                <ol class="carousel-indicators">
-                  <li data-target="#Peek-carousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="1"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="2"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="3"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="4"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="5"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="6"></li>
-                  <li data-target="#Peek-carousel" data-slide-to="7"></li>
-                </ol>
-              </div> -->
 
               <div>
                 <button class="btn btn-link green-button lg-button" data-dismiss="modal" type="button">

@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Butterfly+Kids');
+@import url("https://fonts.googleapis.com/css?family=Butterfly+Kids");
 
 a {
-  font-family: 'Average Sans', sans-serif;
+  font-family: "Average Sans", sans-serif;
   text-decoration: none;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -22,7 +23,7 @@ ul {
 }
 
 .blue-over {
-  background-color: rgba(120,230,255,.5);
+  background-color: rgba(120, 230, 255, 0.5);
 }
 
 .butterfly-text {
@@ -34,7 +35,7 @@ ul {
 }
 
 .gray-over {
-  background-color: rgba(160,160,160,.5);
+  background-color: rgba(160, 160, 160, 0.5);
 }
 
 .green-button {
@@ -50,7 +51,7 @@ ul {
 }
 
 .green-over {
-  background-color:rgba(133,221,31,.5);
+  background-color: rgba(133, 221, 31, 0.5);
 }
 
 .half-div {
@@ -63,6 +64,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 325px;
 }
 
 .lg-button {
@@ -155,6 +157,10 @@ ul {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+  }
+
+  .hero-img {
+    height: 500px;
   }
 
   .lg-heading {

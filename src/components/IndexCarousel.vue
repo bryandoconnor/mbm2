@@ -8,7 +8,7 @@
 	<div class="carousel-inner">
 		<div class="carousel-item active">
 			<div class="row p-0 carousel-row">
-				<div class="col-md-6 col-12 p-0 hero-img index-carousel-img-1"></div>
+				<div class="col-md-6 col-12 p-0 hero-img hero-img-carousel index-carousel-img-1"></div>
 				<div class="col-md-6 col-12">
 					<div class="p-3 text-center">
 						<h1 class="main-heading butterfly-text">Our Workbooks</h1>
@@ -25,7 +25,7 @@
 		</div>
 		<div class="carousel-item">
 			<div class="row p-0 carousel-row">
-				<div class="col-md-6 col-12 p-0 hero-img index-carousel-img-2"></div>
+				<div class="col-md-6 col-12 p-0 hero-img hero-img-carousel index-carousel-img-2"></div>
 				<div class="col-md-6 col-12">
 					<div class="p-3 text-center">
 						<h1 class="main-heading butterfly-text">A Simpler Life</h1>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="carousel-item">
 			<div class="row p-0 carousel-row">
-				<div class="col-md-6 col-12 p-0 hero-img index-carousel-img-3"></div>
+				<div class="col-md-6 col-12 p-0 hero-img hero-img-carousel index-carousel-img-3"></div>
 				<div class="col-md-6 col-12">
 					<div class="p-3 text-center">
 						<h1 class="main-heading butterfly-text">Simplify Everything!</h1>
@@ -100,7 +100,7 @@ export default {
 }
 
 .carousel-row {
-	height: 650px;
+	height: 800px;
 }
 
 @media (min-width: 768px) {
